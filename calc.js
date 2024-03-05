@@ -35,7 +35,7 @@ function updateDisplay(value) {
 //Function to reset calculator 
 
 function clear() {
-    currentInput = null; 
+    currentInput = ''; 
     currentOperation = null; 
     firstOperand = null; 
     secondOperand = null; 
